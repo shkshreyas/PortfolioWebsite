@@ -58,12 +58,10 @@
         overflow:visible;
     }
     .bg{
-        position: absolute;
-        top: 3rem;
-        right:-7rem;
-        z-index: -1;
-        object-fit: cover;
-        height: 60vh;
+        top: -1rem;
+        right:-11rem;
+        width: 100vh;
+        height: auto;
         
     }
 }
