@@ -1,6 +1,6 @@
 #intro{
     height:calc(100vh-4rem);
-    width:100vw;
+    width:125vw;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
@@ -50,4 +50,17 @@
     object-fit: cover;
     margin: 0 0.25rem;
     height: 2rem;
+}
+
+@media only screen and (max-device-width: 480px)
+{
+    .bg{
+        position: absolute;
+        top: -2rem;
+        right:0;
+        z-index: -1;
+        object-fit: cover;
+        height: 75vh;
+        
+    }
 }
