@@ -52,13 +52,11 @@
     height: 2rem;
 }
 
-@media only screen and (max-device-width: 840px)
+@media screen and (max-width: 840px)
 {
-    #intro{
-        overflow:visible;
-    }
+    
     .bg{
-        right:-40vw;
+        right:-10vw;
     }
     .introContent{
         font-size: 10vw;
