@@ -18,7 +18,7 @@ function Intro () {
           <span className='hello'>Hello,</span>
           <span className='introText'>I'm <span className='introName'>Shreyas</span><br></br><span>{typeEffect}</span></span>
           <p className='introPara'>Tech Maven | Visionary Leader | Code & Invest | Relentless Worker 🚀</p>
-          <Link><button className='btn'><img src={btnImg} alt="Connect with Me " className='btnImg'/>Connect With Me</button></Link>
+          <Link to="https://www.example.com"><button className='btn'><img src={btnImg} alt="Connect with Me " className='btnImg'/>Connect With Me</button></Link>
         </div>
         <img src={shreyas} alt='profile' className='bg'/>
       </section>

@@ -9,7 +9,7 @@
 }
 .bg{
     position: absolute;
-    top: -2rem;
+    top: -1rem;
     right:0;
     z-index: -1;
     object-fit: cover;
@@ -52,16 +52,16 @@
     height: 2rem;
 }
 
-@media only screen and (max-device-width: 480px)
+@media only screen and (max-device-width: 840px)
 {
     #intro{
         overflow:visible;
     }
     .bg{
-        top: -1rem;
-        right:-11rem;
-        width: 100vh;
-        height: auto;
-        
+        right:-40vw;
+    }
+    .introContent{
+        font-size: 10vw;
+
     }
 }

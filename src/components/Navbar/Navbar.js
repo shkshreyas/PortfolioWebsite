@@ -11,9 +11,9 @@ const Navbar = () => {
       <img src={logo} alt="logo" className='logo'/>
       <div className='desktopMenu'>
         <Link className='desktopMenuListItem' >Home</Link>
-        <Link className='desktopMenuListItem' >About</Link>
+        <Link to="https://in.linkedin.com/in/shkshreyas" className='desktopMenuListItem' >About</Link>
         <Link className='desktopMenuListItem' >Portfolio</Link>
-        <Link className='desktopMenuListItem' >Clients</Link>
+        <Link className='desktopMenuListItem' >Projets</Link>
 
       </div>
       <button className='desktopMenuBtn'>
